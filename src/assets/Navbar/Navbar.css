@@ -1,0 +1,31 @@
+.mobile {
+  display: none;
+  animation: navmove 0.7s;
+  inset: 0;
+}
+.icon {
+  display: none;
+}
+
+@keyframes navmove {
+  0% {
+    scale: 0;
+  }
+  60% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+@media (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  .mobile {
+    display: flex;
+  }
+}
