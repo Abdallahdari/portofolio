@@ -1,4 +1,5 @@
 # React + Vite
+### i want to add like button and to allow the users to like the project but the fuctionlaty is not working
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
